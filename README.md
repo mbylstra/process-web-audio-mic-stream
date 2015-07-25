@@ -4,8 +4,10 @@ An easy to use function that takes the boilerplate out of processing Web Audio m
 ```javascript
 var processWebAudioMicStream = require('process-web-audio-mic-stream');
 processWebAudioMicStream(function(audioData) {
+    var amplitude;
     for (var i = 0; i < audioData.length; i++) {
-        if (val > 0.9) {
+        amplitude = audioData[i];
+        if (amplitude > 0.9) {
             console.log('Oh No! Too loud!');
             return;
         }
