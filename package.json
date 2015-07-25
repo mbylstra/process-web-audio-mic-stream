@@ -1,0 +1,26 @@
+{
+  "name": "process-web-audio-mic-stream",
+  "version": "0.0.2",
+  "description": "An easy to use function that takes the boilerplate out of processing Web Audio microphone data.",
+  "main": "dist/processWebAudioMicStream.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbylstra/processWebAudioMicStream"
+  },
+  "keywords": [
+    "Web Audio"
+  ],
+  "author": "Michael Bylstra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbylstra/processWebAudioMicStream/issues"
+  },
+  "homepage": "https://github.com/mbylstra/processWebAudioMicStream",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0"
+  }
+}
