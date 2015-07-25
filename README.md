@@ -10,11 +10,13 @@ processWebAudioMicStream(function(audioData) {
             return;
         }
     }
-}).then(function() {
-    // user has accepted or reject the use of the microphone. Continue app code here.
-}, function(err) {
-    // show a meaningful error message to the user
-});
+}).then(
+    function() {
+        // User has accepted the use of the microphone. Continue app code here.
+    }, function(err) {
+        // User has rejected the use of the microphone.
+    }
+);
 ```
 
 # Docs
